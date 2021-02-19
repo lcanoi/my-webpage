@@ -140,7 +140,7 @@ date_format = "Jan 2, 2006"
 time_format = "15:04"
 
 # Address format (en-us, en-gb, de, fr-fr, zh).
-address_format = "en-US"
+address_format = "en-us"
 
 ############################
 ## Advanced
