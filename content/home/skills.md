@@ -10,12 +10,16 @@ feature:
     icon_pack: fab
     name: R
   - description: 100%
-    icon: chart-line
-    icon_pack: fas
+    icon: python
+    icon_pack: fab
     name: Statistics
   - description: 10%
-    icon: camera-retro
-    icon_pack: fas
+    icon: react-js
+    icon_pack: fab
+    name: Photography
+  - description: 10%
+    icon: wordpress
+    icon_pack: fab
     name: Photography
 widget_id: Skills
 active: true
