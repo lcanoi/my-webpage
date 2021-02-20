@@ -20,16 +20,16 @@ social:
     link: https://github.com/lcanoi
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/luis-cano-irigoyen-0624381ba/
+    link: https://www.linkedin.com/in/luis-cano-irigoyen-0624381ba/?locale=es_ES
 organizations:
   - url: https://tec.mx/en
     name: Tecnológico de Monterrey
 education:
   courses:
-    - course: BSc in Computer Science, currently enrolled
+    - course: BSc en Tecnologías Computacionales, cursando actualmetne
       institution: Tecnológico de Monterrey
       year: ""
-    - course: International Baccalaureate Diploma Programme
+    - course: Programa del Diploma Bachillerato Internacional
       institution: Liceo de Monterrey, Centro Educativo
       year: 2019
 email: ""
