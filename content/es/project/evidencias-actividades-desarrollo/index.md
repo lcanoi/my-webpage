@@ -2,7 +2,7 @@
 title: Recolección de Mis Evidencias y Actividades que han aportado a Mi Desarrollo
 subtitle: ""
 date: 2021-02-20T03:58:45.024Z
-summary: Los aprendizajes que he alcanzado en esta primera etapa (Ago 2019 - Dic 2020) de mi preparación profesional
+summary: Los aprendizajes que alcancé en la primera etapa (Ago 2019 - Dic 2020) de mi preparación profesional
 draft: false
 featured: false
 tags:
