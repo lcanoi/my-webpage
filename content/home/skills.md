@@ -5,33 +5,33 @@ weight: 30
 title: Skills
 subtitle: null
 feature:
-  - icon: r-project
-    icon_pack: fab
-    name: R
   - icon: python
     icon_pack: fab
     name: Python
-  - icon: node-js
-    icon_pack: fab
-    name: Node.js
-  - icon: wordpress
-    icon_pack: fab
-    name: Wordpress
-  - icon: sql
-    icon_pack: custom
-    name: SQL
   - icon: cplusplus
     icon_pack: custom
     name: C++
   - icon: csharp
     icon_pack: custom
     name: C#
+  - icon: node-js
+    icon_pack: fab
+    name: Node.js
+  - icon: sql
+    icon_pack: custom
+    name: SQL
   - icon: matlab
     icon_pack: custom
     name: Matlab
   - icon: unity
     icon_pack: fab
     name: Unity
+  - icon: wordpress
+    icon_pack: fab
+    name: Wordpress
+  - icon: r-project
+    icon_pack: fab
+    name: R
 widget_id: Skills
 active: true
 ---
