@@ -1,6 +1,6 @@
 ---
 title: Luis Cano
-role: Engineering student in computer sciences
+role: Engineering student in Computer Science
 bio: My interests include game/app development, web development,
   computer-assisted education, and programming languages.
 interests:
@@ -36,7 +36,7 @@ email: ""
 superuser: true
 highlight_name: false
 ---
-Luis Cano is an Engineering student in computer sciences at the Instituto Tecnológico de Estudios Superiores de Monterrey (ITESM). His research interests include game/app development, web development, computer-assisted education and programming languages.
+Luis Cano is an Engineering student in Computer Science at the Instituto Tecnológico de Estudios Superiores de Monterrey (ITESM). His research interests include game/app development, web development, computer-assisted education and programming languages.
 
 He is currently a marketing analyst and frontend web developer at [Pixelwork](https://pixelwork.mx/), where he has made and designed multiple sites for other companies, as well as worked with Search Engine Optimization, Google Ads, and maintenance for multiple domains. Moreover, he has worked on different university projects, such as the creation and development of the Student Participation Committee [website](https://www.cpefetec.com/). Furthermore, he has previously taught a programming course (of *Swift*) for younger students.
 
