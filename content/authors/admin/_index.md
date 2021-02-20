@@ -20,7 +20,7 @@ social:
     link: https://github.com/lcanoi
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/in/luis-cano-0624381ba/
 organizations:
   - url: https://tec.mx/en
     name: Tecnológico de Monterrey
