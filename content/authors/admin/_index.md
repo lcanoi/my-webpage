@@ -4,9 +4,10 @@ role: Engineering student in computer sciences
 bio: My interests include game/app development, web development,
   computer-assisted education and programming languages.
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Game/App development
+  - Web development
+  - Computer-assisted education
+  - Programming languages
 social:
   - icon: envelope
     icon_pack: fas
