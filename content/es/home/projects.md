@@ -3,7 +3,7 @@ widget: portfolio
 widget_id: Projects
 headless: true
 weight: 40
-title: Projectos
+title: Proyectos
 subtitle: ""
 content:
   page_type: project
