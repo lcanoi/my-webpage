@@ -33,5 +33,5 @@ feature:
     icon_pack: fab
     name: R
 widget_id: Skills
-active: false
+active: true
 ---
