@@ -10,7 +10,7 @@ tags:
   - ITESM
 external_link: https://miscompetenciastec21.tec.mx/elumen/portfolio/K9krQbCe0nU2lbE
 image:
-  filename: tec_monterrey_logo.png
+  filename: featured.jpg
   focal_point: Smart
   preview_only: false
 ---
