@@ -11,7 +11,7 @@ interests:
 social:
   - icon: envelope
     icon_pack: fas
-    link: a00827178@itesm.mx
+    link: mailto:a00827178@itesm.mx
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/Luiscanoi
