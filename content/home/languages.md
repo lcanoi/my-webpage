@@ -6,7 +6,7 @@ title: Languages
 subtitle: null
 feature:
   - icon: english
-    icon_pack: fab
+    icon_pack: custom
     name: English
     description: 100%
   - icon: spanish
