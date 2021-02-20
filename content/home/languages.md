@@ -5,33 +5,18 @@ weight: 20
 title: Languages
 subtitle: null
 feature:
-  - icon: python
+  - icon: english
     icon_pack: fab
-    name: Python
-  - icon: cplusplus
+    name: English
+    description: 100%
+  - icon: spanish
     icon_pack: custom
-    name: C++
-  - icon: csharp
+    name: Spanish
+    description: 100%
+  - icon: french
     icon_pack: custom
-    name: C#
-  - icon: node-js
-    icon_pack: fab
-    name: Node.js
-  - icon: sql
-    icon_pack: custom
-    name: SQL
-  - icon: matlab
-    icon_pack: custom
-    name: Matlab
-  - icon: unity
-    icon_pack: fab
-    name: Unity
-  - icon: wordpress
-    icon_pack: fab
-    name: Wordpress
-  - icon: r-project
-    icon_pack: fab
-    name: R
+    name: French
+    description: 25%
 widget_id: Languages
 active: true
 ---
