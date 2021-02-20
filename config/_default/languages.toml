@@ -8,13 +8,13 @@
   # contentDir = "content/en"  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
 
 # Uncomment the lines below to configure your website in a second language.
-#[es]
-#  languageCode = "es-mx"
-#  contentDir = "content/es"
-#  title = "Chinese website title..."
-#  [es.params]
-#    description = "Site description in Chinese..."
-#  [[es.menu.main]]
-#    name = "Wo"
-#    url = "#about"
-#    weight = 1
+[es]
+  languageCode = "es-mx"
+  contentDir = "content/es"
+  title = "Luis Cano irigoyen"
+  [es.params]
+    description = "Estudiante de Ingeniería en Tecnologías Computacionales"
+  [[es.menu.main]]
+    name = "Es"
+    url = "#about"
+    weight = 1
