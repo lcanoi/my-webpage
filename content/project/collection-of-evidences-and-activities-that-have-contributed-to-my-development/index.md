@@ -4,7 +4,7 @@ title: Collection of Evidences and Activities that have contributed to My
 subtitle: ""
 date: 2021-02-20T03:58:45.024Z
 summary: The learnings I achieved in this first stage (Aug 2019 - Dec 2020) of
-  my professional preparation
+  my professional preparation.
 draft: false
 featured: false
 tags:
