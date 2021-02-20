@@ -14,13 +14,17 @@ feature:
     icon_pack: fab
     name: Statistics
   - description: 10%
-    icon: react-js
+    icon: node-js
     icon_pack: fab
     name: Photography
   - description: 10%
     icon: wordpress
     icon_pack: fab
     name: Photography
+  - description: 10%
+    icon: sql
+    icon_pack: custom
+    name: SQL
 widget_id: Skills
 active: true
 ---
