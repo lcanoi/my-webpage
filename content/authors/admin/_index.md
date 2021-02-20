@@ -40,4 +40,4 @@ Luis Cano is an Engineering student in computer sciences at the Instituto Tecnol
 
 He is currently a marketing analyst and frontend web developer at [Pixelwork](https://pixelwork.mx/), where he has made and designed multiple sites for other companies, as well as worked with Search Engine Optimization, Google Ads, and maintenance for multiple domains. Moreover, he has worked on different university projects, such as the creation and development of the Student Participation Committee [website](https://www.cpefetec.com/). Furthermore, he has previously taught a programming course (of *Swift*) for younger students.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}résumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}résumé{{< /staticref >}}.
