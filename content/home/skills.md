@@ -12,17 +12,16 @@ feature:
   - description: 100%
     icon: python
     icon_pack: fab
-    name: Statistics
+    name: Python
   - description: 10%
     icon: node-js
     icon_pack: fab
-    name: Photography
-  - description: 10%
+    name: Node.js
+  - description:
     icon: wordpress
     icon_pack: fab
-    name: Photography
-  - description: 10%
-    icon: sql
+    name: Wordpress
+  - icon: sql
     icon_pack: custom
     name: SQL
 widget_id: Skills
