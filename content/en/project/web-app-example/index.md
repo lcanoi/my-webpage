@@ -9,7 +9,7 @@ tags:
   - React.js
 external_link: https://github.com/lcanoi/App-Web-Ejemplo
 image:
-  filename: featured.png
+  filename: featured.jpg
   focal_point: Smart
   preview_only: false
 ---
