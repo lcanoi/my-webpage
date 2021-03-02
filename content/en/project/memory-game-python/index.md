@@ -8,7 +8,7 @@ featured: false
 tags:
   - Python
   - Programming
-external_link: https://github.com/lcanoi/App-Web-Ejemplo
+external_link: https://github.com/lcanoi/MemoramaPython
 image:
   filename: featured.png
   focal_point: Smart
