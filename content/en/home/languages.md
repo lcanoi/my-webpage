@@ -16,7 +16,7 @@ feature:
   - icon: french
     icon_pack: custom
     name: French
-    description: 25%
+    description: 30%
 widget_id: Languages
 active: true
 ---
