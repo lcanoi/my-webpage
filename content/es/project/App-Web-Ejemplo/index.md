@@ -7,6 +7,7 @@ draft: false
 featured: false
 tags:
   - React.js
+  - Programming
 external_link: https://github.com/lcanoi/App-Web-Ejemplo
 image:
   filename: featured.jpg
