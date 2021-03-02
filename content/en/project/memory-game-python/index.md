@@ -1,0 +1,16 @@
+---
+title: Python Memory Game (ES)
+subtitle: ""
+date: 2021-02-20T03:57:45.024Z
+summary: Memory game (memorama) for 2 players made in python. It is played in the terminal where the memorama.py code is run.
+draft: false
+featured: false
+tags:
+  - Python
+  - Programming
+external_link: https://github.com/lcanoi/App-Web-Ejemplo
+image:
+  filename: featured.png
+  focal_point: Smart
+  preview_only: false
+---
