@@ -39,6 +39,7 @@ highlight_name: false
 Luis Cano is an Engineering student in Computer Science at the Instituto Tecnológico de Estudios Superiores de Monterrey (ITESM). His research interests include AI, game/app development, web development, digital marketing and programming languages.
 
 He is currently a Digital Analyst, Web Developer and SEO Analyst at [Forte Industria](https://forteindustria.com/) —an online retailer of industrial machinery— and at Cocina del Chef —an online retailer of kitchen related products. Also has previous experience working at [Pixelwork](https://pixelwork.mx/) —making and designed multiple sites for other companies, as well as workeing with Search Engine Optimization, Google Ads, and maintenance for multiple domains. Likewise, he has worked on different university projects, such as the creation and development of the Student Participation Committee [website](https://www.cpefetec.com/).
+
 Moreover, he has worked in app development –working with Unity to develop UI/UX layouts as well as game features and mechanics.
 Furthermore, he is experienced as well in teaching –having taught programming courses (of *Swift*) for younger students in two occasions.
 
