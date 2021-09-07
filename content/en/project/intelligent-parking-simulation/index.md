@@ -6,7 +6,8 @@ summary: Simulation of multiagents with a system to improve the waiting time of 
 draft: false
 featured: false
 tags:
-  - Python
+  - C#
+  - Unity
   - Programming
 external_link: https://github.com/lcanoi/IntelligentParkingSimulation
 image:
