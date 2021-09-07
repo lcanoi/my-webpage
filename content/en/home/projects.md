@@ -4,7 +4,7 @@ widget_id: Projects
 headless: true
 weight: 40
 title: Projects
-subtitle: ""
+subtitle: "will be updated in the following days"
 content:
   page_type: project
   filter_default: 0
