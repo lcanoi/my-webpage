@@ -1,12 +1,13 @@
 ---
 title: Luis Cano
 role: Estudiante de Ingeniería en Tecnologías Computacionales
-bio: Mis intereses incluyen desarrollo de juegos/aplicaciones, desarrollo web,
-  educación asistida por computadoras, y lenguajes de programación.
+bio: Mis intereses incluyen Inteligencia Artificial, desarrollo de juegos/aplicaciones, desarrollo web,
+  marketing digital, y lenguajes de programación.
 interests:
+  - Inteligencia Artificial
   - Desarrollo de juegos/aplicaciones
   - Desarrollo web
-  - Educación asistida por computadoras
+  - Marketing digital
   - Lenguajes de programación
 social:
   - icon: envelope
@@ -36,8 +37,11 @@ email: ""
 superuser: true
 highlight_name: false
 ---
-Luis Cano es un estudiante de Ingeniería en Tecnologías Computacionales en el Instituto Tecnológico de Estudios Superiores de Monterrey (ITESM). Sus intereses de investigación incluyen el desarrollo de juegos/aplicaciones, desarrollo web, educación asistida por computadoras y lenguajes de programación.
+Luis Cano es un estudiante de Ingeniería en Tecnologías Computacionales en el Instituto Tecnológico de Estudios Superiores de Monterrey (ITESM). Sus intereses de investigación incluyen la Inteligencia Artificial, el desarrollo de juegos/aplicaciones, desarrollo web, marketing digital y lenguajes de programación.
 
-Actualmente es analista de marketing y desarrollador web front-end en [Pixelwork](https://pixelwork.mx/) agencia web, donde ha realizado y diseñado múltiples sitios para otras empresas, además de trabajar con Search Engine Optimization, Google Ads y mantenimiento para múltiples dominios. Además, ha trabajado en diferentes proyectos universitarios, como la creación y desarrollo del [sitio web](https://www.cpefetec.com/) del Comité de Participación Estudiantil. Adicionalmente, ha impartido previamente un curso de programación (de *Swift*), enseñando a estudiantes más jóvenes.
+Actualmente es Analísta Digital, Desarrollador Web y Analista de SEO en [Forte Industria](https://forteindustria.com/) —una tienda en línea de maquinaria industrial— y en Cocina del Chef —una próxima tienda en línea de artículos relacionados con cocina. Adicionalmente cuenta con experiencia previa habiendo trabajado en [Pixelwork](https://pixelwork.mx/) —realizando y diseñando múltiples sitios para otras empresas, además de trabajar con Search Engine Optimization, Google Ads y mantenimiento para múltiples dominios. De igual manera, ha trabajado en diferentes proyectos universitarios, como la creación y desarrollo del [sitio web](https://www.cpefetec.com/) del Comité de Participación Estudiantil.
+
+Además, ha trabajado en el desarrollo de aplicaciones —trabajando con Unity para desarrollar interfaces de UI/UX, así como desarrollar características y mecánicas de juegos.
+También cuenta con experiencia en la enseñanza habiendo —impartido cursos de programación (de *Swift*) para estudiantes más jóvenes en dos ocasiones.
 
 {{< icon name="download" pack="fas" >}} Descarga mi {{< staticref "media/resume.pdf" "newtab" >}}résumé{{< /staticref >}}
