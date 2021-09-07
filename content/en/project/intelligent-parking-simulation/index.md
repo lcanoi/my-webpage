@@ -1,7 +1,7 @@
 ---
 title: Intelligent Parking Simulation
 subtitle: ""
-date: 2021-02-20T03:57:45.024Z
+date: 2021-09-01T03:57:45.024Z
 summary: Simulation of multiagents with a system to improve the waiting time of cars when looking for a parking space in a plaza. Made in Unity
 draft: false
 featured: false
