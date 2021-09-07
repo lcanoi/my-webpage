@@ -44,4 +44,4 @@ Actualmente es Analísta Digital, Desarrollador Web y Analista de SEO en [Forte 
 Además, ha trabajado en el desarrollo de aplicaciones —trabajando con Unity para desarrollar interfaces de UI/UX, así como desarrollar características y mecánicas de juegos.
 También cuenta con experiencia en la enseñanza habiendo —impartido cursos de programación (de *Swift*) para estudiantes más jóvenes en dos ocasiones.
 
-{{< icon name="download" pack="fas" >}} Descarga mi {{< staticref "media/resume.pdf" "newtab" >}}résumé{{< /staticref >}}
+{{< icon name="download" pack="fas" >}} Descarga mi {{< staticref "es/media/resume.pdf" "newtab" >}}résumé{{< /staticref >}}
