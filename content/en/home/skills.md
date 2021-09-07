@@ -32,6 +32,15 @@ feature:
   - icon: r-project
     icon_pack: fab
     name: R
+  - icon: html5
+    icon_pack: fab
+    name: HTML
+  - icon: css3-alt
+    icon_pack: fab
+    name: CSS
+  - icon: figma
+    icon_pack: fab
+    name: Figma
 widget_id: Skills
 active: true
 ---
