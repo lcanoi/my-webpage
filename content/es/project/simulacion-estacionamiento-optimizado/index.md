@@ -1,5 +1,5 @@
 ---
-title: MyPsot: Simulación Estacionamiento Optimizado
+title: MyPsot - Simulación Estacionamiento Optimizado
 subtitle: ""
 date: 2021-09-01T03:57:45.024Z
 summary: Simulación de multiagentes con un sistema inteligente para mejorar el tiempo de espera de carros al buscar un lugar de estacionamiento en una plaza. Hecho en Unity
