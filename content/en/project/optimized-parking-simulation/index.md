@@ -1,5 +1,5 @@
 ---
-title: Optimized Parking Simulation
+title: MySpot: Optimized Parking Simulation
 subtitle: ""
 date: 2021-09-01T03:57:45.024Z
 summary: Simulation of multiagents with an intelligent system to improve the waiting time of cars when looking for a parking space in a plaza. Made in Unity
