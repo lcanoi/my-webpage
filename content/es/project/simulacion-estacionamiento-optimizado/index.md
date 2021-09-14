@@ -1,5 +1,5 @@
 ---
-title: MyPsot - Simulación Estacionamiento Optimizado
+title: MySpot - Simulación Estacionamiento Optimizado
 subtitle: ""
 date: 2021-09-01T03:57:45.024Z
 summary: Simulación de multiagentes con un sistema inteligente para mejorar el tiempo de espera de carros al buscar un lugar de estacionamiento en una plaza. Hecho en Unity
@@ -29,13 +29,6 @@ MySpot es el resultado de la solución creada para un reto de Modelación de sis
 Para la creación de este proyecto, las herramientas que se usaron principalmente fueron:
 + NetLogo: para la simulación inicial y prueba de algoritmos (área de multiagentes). 
 + Unity: para el desarrollo del proyecto final (área de multiagentes y Gráficas).
-
-## Further improvment
-+ Improving the intelligence of the sensor system in the parking lot:
-  + Not only assigning cars parking spots near the shop they want to go to but consider also the time each one will approximately take on the store. It might be better to park further away cars that stay for a long time while prioritizing the closer spots for cars that leave quickly.
-  + Should also consider to save enough disabled parking spots near each shop.
-+ Add cars to the circulation which are not going to any shop, just passing through the street.
-+ Fixing bugs that can happen when running a simulation with a fast car spawn rate and high concentration of cars.
 
 ## Mejoras por realizar
 + Mejorar la inteligencia del sistema de sensores en el estacionamiento:
