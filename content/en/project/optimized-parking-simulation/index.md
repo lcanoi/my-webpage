@@ -35,6 +35,6 @@ For the creation of this project, the tools that were mainly used were:
 ## Further improvment
 + Improving the intelligence of the sensor system in the parking lot:
   + Not only assigning cars parking spots near the shop they want to go to but consider also the time each one will approximately take on the store. It might be better to park further away cars that stay for a long time while prioritizing the closer spots for cars that leave quickly.
-  + Should also consider disabled parking spots near each shop.
+  + Should also consider to save enough disabled parking spots near each shop.
 + Add cars to the circulation which are not going to any shop, just passing through the street.
 + Fixing bugs that can happen when running a simulation with a fast car spawn rate and high concentration of cars.
