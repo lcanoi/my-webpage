@@ -34,7 +34,7 @@ I created the following 3 screens accesible from the starting screen from the ga
 
 ### Developing a game prototype
 
-Developed an idea/brief into a game prototype, creating all of the followingg:
+Developed an idea/brief into a game prototype, creating all of the following:
 - Player mechanics
 - Enemies AI
 - Obstacles and interactions with them
