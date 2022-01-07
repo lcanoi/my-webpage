@@ -39,19 +39,19 @@ Developed an idea/brief into a game prototype, creating the following:
 - Enemies AI
 - Obstacles and interactions with them
 - Editor Tool for Level Building
-Worked with a large team providing ideas for others and implementing received feedback into my own projects.
+
+![gameplay image](gameplay1.png "gameplay image")
+![gameplay image](gameplay2.png "gameplay image")
+
+
+![level builder](level_builder1.png "level builder image")
+![level builder](level_builder2.png "level builder image")
+
+For these projects I worked with a large team providing ideas for others and implementing received feedback into my own projects.
 
 ## Example of the simulation:
 [![Simulation Example](https://img.youtube.com/vi/YWoAGjl28zU/0.jpg)](https://www.youtube.com/watch?v=YWoAGjl28zU)
 
-## Find the project on Github
-[**MySpot**](https://github.com/lcanoi/OptimizedParkingSimulation)
-
-
-## Tools
-For the creation of this project, the tools that were mainly used were:
-+ NetLogo: for initial simulation and algorithm testing (multi-agent area).
-+ Unity: for the development of the final project (multi-agent and graphics area).
 
 ## Further improvment
 + Improving the intelligence of the sensor system in the parking lot:
