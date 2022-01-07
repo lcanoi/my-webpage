@@ -50,7 +50,7 @@ Developed an idea/brief into a game prototype, creating all of the following:
 For these projects I worked with a large team providing ideas for others and implementing received feedback into my own projects. I also learned from their work flow which I implemented in the game prototype, which included their Gamejam boot screen, their Boot - Game - Level - LevelItem architecture, and a basic idea for a home layout for the game.
 
 ## Further improvment
-With me returning to classes and the internship ending there where many improvements left to be done for the game prototype project, including:
-+ Improving the enemy AI, making them in harder difficulties seek more often green gates and avoid red gates. At the moment the AI was left only seeking to reach the GOAL and depending on the difficulty avoiding to fall of the track and jumping faster or slower.
+With me returning to classes and the internship ending there were many improvements left to be done for the game prototype project, including:
++ Improving the enemy AI, making them in harder difficulties seek more often green gates and avoid red gates. At the moment the AI was left only seeking to reach the GOAL and depending on the difficulty avoiding falling off the track and jumping faster or slower.
 + Adding more obstacles to make the game more interesting.
 + Creating better 3D models for the lollipops as well as creating art for the background, goal and obstacles (Make the game better looking).
