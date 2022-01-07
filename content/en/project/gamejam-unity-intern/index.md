@@ -26,12 +26,13 @@ My work there can be described in the following points:
 I was added to a Figma project with all of the screen layouts for an existing game project and was asked to implement the UI/UX layouts from Figma into Unity.
 I created the following 3 screens accesible from the starting screen from the game, with working buttons, select options, scroll, small animations...
 
-[![screen reader text](img3.png "VIP view")]
+![VIP view](img3.png "VIP view")
 
-![Image Shop](img2.png "InAppPurchases Shop")
+![InAppPurchases Shop](img2.png "InAppPurchases Shop")
 
-{{< figure src="img1.png" caption="A caption" numbered="true" >}}
+![Customization Shop](img1.png "Customization Shop")
 
+### Developing a game prototype
 
 Developed an idea/brief into a game prototype, creating the following:
 - Player mechanics
