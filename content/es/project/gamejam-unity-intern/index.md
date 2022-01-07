@@ -26,9 +26,7 @@ Me agregaron a un proyecto de Figma con todos los diseños de pantalla para un p
 Creé las siguientes 3 pantallas accesibles desde la pantalla de inicio del juego, con botones funcionales, opciones seleccionables, scroll, pequeñas animaciones ...
 
 ![VIP view](img3.png "VIP view")
-
 ![InAppPurchases Shop](img2.png "InAppPurchases Shop")
-
 ![Customization Shop](img1.png "Customization Shop")
 
 ### Desarrollando un prototipo de juego
@@ -41,7 +39,6 @@ Desarrollé una idea en un prototipo de un juego, realizando lo siguiente:
 
 ![gameplay image](gameplay1.png "gameplay image")
 ![gameplay image](gameplay2.png "gameplay image")
-
 
 ![level builder](level_builder1.png "level builder image")
 ![level builder](level_builder2.png "level builder image")
