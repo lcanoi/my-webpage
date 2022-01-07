@@ -24,7 +24,7 @@ My work there is described in the following points:
 
 ### UI/UX
 I was added to a Figma project with all of the screen layouts for an existing game project and was asked to implement the UI/UX layouts from Figma into Unity.
-I created the following 3 screens accesible from the starting screen from the game, with working buttons, select options, scroll, small animations...
+I created the following 3 screens accessible from the starting screen from the game, with working buttons, select options, scroll, small animations...
 
 ![VIP view](img3.png "VIP view")
 
