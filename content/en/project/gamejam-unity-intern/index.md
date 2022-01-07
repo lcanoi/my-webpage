@@ -18,8 +18,8 @@ image:
 ---
 
 ## Overview
-While working at Gamejam I managed to learn a lot about working in a large team for a software project as well as learning numerous skills for C# developing in Unity.
-My work there can be described in the following points:
+While working at Gamejam, a Vietnam based game developer, I managed to learn a lot about working in a large team for a software project as well as learning numerous skills for C# developing in Unity.
+My work there is described in the following points:
 
 
 ### UI/UX
