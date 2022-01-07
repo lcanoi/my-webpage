@@ -30,7 +30,7 @@ I created the following 3 screens accesible from the starting screen from the ga
 
 ![screen reader text](image2.jpg "InAppPurchases Shop")
 
-![screen reader text](image1.jpg "Costumizarion Shop")
+{{< figure src="image1.jpg" caption="A caption" numbered="true" >}}
 
 
 Developed an idea/brief into a game prototype, creating the following:
