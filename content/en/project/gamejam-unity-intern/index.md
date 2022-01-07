@@ -49,13 +49,8 @@ Developed an idea/brief into a game prototype, creating the following:
 
 For these projects I worked with a large team providing ideas for others and implementing received feedback into my own projects.
 
-## Example of the simulation:
-[![Simulation Example](https://img.youtube.com/vi/YWoAGjl28zU/0.jpg)](https://www.youtube.com/watch?v=YWoAGjl28zU)
-
-
 ## Further improvment
-+ Improving the intelligence of the sensor system in the parking lot:
-  + Not only assigning cars parking spots near the shop they want to go to but consider also the time each one will approximately take on the store. It might be better to park further away cars that stay for a long time while prioritizing the closer spots for cars that leave quickly.
-  + Should also consider to save enough disabled parking spots near each shop.
-+ Add cars to the circulation which are not going to any shop, just passing through the street.
-+ Fixing bugs that can happen when running a simulation with a fast car spawn rate and high concentration of cars.
+With me returning to classes and the internship ending there where many improvements left to be done for the game prototype project, including:
++ Improving the enemy AI, making them in harder difficulties seek more often green gates and avoid red gates. At the moment the AI was left only seeking to reach the GOAL and depending on the difficulty avoiding to fall of the track and jumping faster or slower.
++ Adding more obstacles to make the game more interesting.
++ Creating better 3D models for the lollipops as well as creating art for the background, goal and obstacles (Make the game better looking).
