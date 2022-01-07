@@ -47,7 +47,7 @@ Developed an idea/brief into a game prototype, creating all of the following:
 ![level builder](level_builder1.png "level builder image")
 ![level builder](level_builder2.png "level builder image")
 
-For these projects I worked with a large team providing ideas for others and implementing received feedback into my own projects. I also learnt from their work flow which I implemented in the game prototype, which included their Gamejam boot screen, their Boot - Game - Level - LevelItem architechture, and a basic idea for a home layout for the game.
+For these projects I worked with a large team providing ideas for others and implementing received feedback into my own projects. I also learned from their work flow which I implemented in the game prototype, which included their Gamejam boot screen, their Boot - Game - Level - LevelItem architecture, and a basic idea for a home layout for the game.
 
 ## Further improvment
 With me returning to classes and the internship ending there where many improvements left to be done for the game prototype project, including:
