@@ -26,6 +26,7 @@ My work there can be described in the following points:
 I was added to a Figma project with all of the screen layouts for an existing game project and was asked to implement the UI/UX layouts from Figma into Unity.
 I created the following 3 screens accesible from the starting screen from the game, with working buttons, select options, scroll, small animations...
 
+---
 image:
   filename: img1.png
   focal_point: Smart
@@ -40,6 +41,7 @@ image:
   filename: img3.png
   focal_point: Smart
   preview_only: false
+---
 
 Developed an idea/brief into a game prototype, creating the following:
 - Player mechanics
