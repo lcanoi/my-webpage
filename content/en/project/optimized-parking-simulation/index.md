@@ -8,7 +8,6 @@ featured: false
 tags:
   - C#
   - Unity
-  - Programming
 external_link: ""
 # https://github.com/lcanoi/OptimizedParkingSimulation
 image:
