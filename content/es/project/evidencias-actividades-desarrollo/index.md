@@ -6,7 +6,10 @@ summary: Los aprendizajes que alcancé en la primera etapa (Ago 2019 - Dic 2020)
 draft: false
 featured: false
 tags:
-  - ITESM
+  - 4
+  - 6
+  - 8
+  - Other
 external_link: https://miscompetenciastec21.tec.mx/elumen/portfolio/K9krQbCe0nU2lbE
 image:
   filename: featured.png
