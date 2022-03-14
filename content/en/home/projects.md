@@ -14,7 +14,9 @@ content:
     - name: Unity
       tag: Unity
     - name: C#/C++
-      tag: [C#, Web]
+      tags:
+        -C#
+        -Web
     - name: Web Dev
       tag: Web
     - name: React.js
