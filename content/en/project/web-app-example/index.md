@@ -6,6 +6,8 @@ summary: This is a React.js app where you can Register as an user, web search fo
 draft: false
 featured: false
 tags:
+  - 3
+  - 5
   - React
   - Web
 external_link: https://github.com/lcanoi/App-Web-Ejemplo
