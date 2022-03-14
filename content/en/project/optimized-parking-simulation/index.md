@@ -6,6 +6,9 @@ summary: Simulation of multiagents with an intelligent system to improve the wai
 draft: false
 featured: false
 tags:
+  - 1
+  - 2
+  - 4
   - C#
   - Unity
 external_link: ""
