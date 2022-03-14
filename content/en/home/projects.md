@@ -17,7 +17,7 @@ content:
       tag: 2
     - name: Web Dev
       tag: 3
-    - name: C#/C++
+    - name: C# / C++
       tag: 4
     - name: React.js
       tag: 5
