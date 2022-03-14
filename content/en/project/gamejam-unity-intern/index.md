@@ -7,7 +7,6 @@ featured: false
 tags:
   - C#
   - Unity
-  - Programming
   - UI/UX
 external_link: ""
 # 
