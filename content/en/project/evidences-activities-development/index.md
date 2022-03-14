@@ -8,6 +8,7 @@ summary: The learnings I achieved in this first stage (Aug 2019 - Dec 2020) of
 draft: false
 featured: false
 tags:
+  - 7
   - Other
 external_link: https://miscompetenciastec21.tec.mx/elumen/portfolio/K9krQbCe0nU2lbE
 image:
