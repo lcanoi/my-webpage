@@ -5,6 +5,7 @@ date: 2021-09-02T03:57:45.024Z
 summary: Worked with Gamejam to develop an idea/brief into a game prototype working with a larger team and learning from their work process.
 featured: false
 tags:
+  - 2
   - C#
   - Unity
   - UI/UX
