@@ -12,17 +12,17 @@ content:
     - name: All
       tag: "*"
     - name: Unity
-      tag: "Unity"
+      tag: Unity
     - name: C#/C++
-      tag: "C#", "C++"
+      tag: C#, C++
     - name: Web Dev
-      tag: "Web"
+      tag: Web
     - name: React.js
-      tag: "React"
+      tag: React
     - name: Python
-      tag: "Python"
+      tag: Python
     - name: Other
-      tag: "Other"
+      tag: Other
 design:
   columns: "2"
   view: 2
