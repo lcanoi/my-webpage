@@ -11,6 +11,16 @@ content:
   filter_button:
     - name: All
       tag: "*"
+    - name: Unity
+      tag: "Unity"
+    - name: C#/C++
+      tag: "C#", "C++"
+    - name: Web Dev
+      tag: "Web"
+    - name: Python
+      tag: "Python"
+    - name: Other
+      tag: "Other"
 design:
   columns: "2"
   view: 2
