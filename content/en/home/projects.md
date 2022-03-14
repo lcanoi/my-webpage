@@ -17,6 +17,8 @@ content:
       tag: "C#", "C++"
     - name: Web Dev
       tag: "Web"
+    - name: React.js
+      tag: "React"
     - name: Python
       tag: "Python"
     - name: Other
