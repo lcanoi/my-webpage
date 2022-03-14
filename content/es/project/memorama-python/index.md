@@ -6,8 +6,8 @@ summary: Juego de Memorama para 2 jugadores realizado en python. Se juega en la 
 draft: false
 featured: false
 tags:
+  - 6
   - Python
-  - Programming
 external_link: https://github.com/lcanoi/MemoramaPython
 image:
   filename: featured.png
