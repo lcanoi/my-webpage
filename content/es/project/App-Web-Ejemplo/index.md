@@ -6,8 +6,10 @@ summary: Esta es una React.js App donde puede registrarse como usuario, buscar l
 draft: false
 featured: false
 tags:
-  - React.js
-  - Programming
+  - 3
+  - 5
+  - React
+  - Web
 external_link: https://github.com/lcanoi/App-Web-Ejemplo
 image:
   filename: featured.jpg
