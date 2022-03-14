@@ -6,9 +6,11 @@ summary: Simulación de multiagentes con un sistema inteligente para mejorar el 
 draft: false
 featured: false
 tags:
+  - 1
+  - 2
+  - 4
   - C#
   - Unity
-  - Programming
 external_link: ""
 image:
   filename: featured.png
