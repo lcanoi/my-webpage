@@ -23,8 +23,10 @@ content:
       tag: 5
     - name: Python
       tag: 6
-    - name: Other
+    - name: APIs
       tag: 7
+    - name: Other
+      tag: 8
 design:
   columns: "2"
   view: 2
