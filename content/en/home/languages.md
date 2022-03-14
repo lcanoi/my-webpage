@@ -1,7 +1,7 @@
 ---
 widget: featurette
 headless: true
-weight: 30
+weight: 40
 title: Languages
 subtitle: null
 feature:
