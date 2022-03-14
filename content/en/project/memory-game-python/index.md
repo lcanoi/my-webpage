@@ -6,6 +6,7 @@ summary: Memory game (memorama) for 2 players made in python. It is played in th
 draft: false
 featured: false
 tags:
+  - 6
   - Python
 external_link: https://github.com/lcanoi/MemoramaPython
 image:
