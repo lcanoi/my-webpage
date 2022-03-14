@@ -5,9 +5,10 @@ date: 2021-09-02T03:57:45.024Z
 summary: Trabaje con Gamejam para desarrollar una idea en un prototipo de un juego trabajando con un equipo grande y aprendiendo de sus métodologías de trabajo.
 featured: false
 tags:
+  - 2
+  - 4
   - C#
   - Unity
-  - Programming
   - UI/UX
 external_link: ""
 # 
