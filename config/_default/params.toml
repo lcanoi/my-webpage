@@ -89,7 +89,7 @@ show_related = {book = true, page = false, post = true, project = true, publicat
 
 # Enter contact details (optional). To hide a field, clear it to "".
 email = ""
-phone = "81 2349 2066"
+phone = ""
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
@@ -114,7 +114,7 @@ appointment_url = ""
 contact_links = [
   {icon = "twitter", icon_pack = "fab", name = "Twitter", link = "https://twitter.com/Luiscanoi"},
   {icon = "skype", icon_pack = "fab", name = "Skype", link = "skype:lcanoi0073?chat"},
-  # {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
+  {icon = "whatsapp", icon_pack = "fab", name = "Chat on Whatsapp", link = "https://web.whatsapp.com/send?phone=528123492066"},
   # {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
   # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
   ]
