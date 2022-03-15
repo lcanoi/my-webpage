@@ -3,7 +3,7 @@ title: Luis Cano
 role: Engineering student in Computer Science
 bio: My interests include AI, game/app development, web development, digital marketing, programming languages.
 interests:
-  - AI
+  - AI & Machine Learning
   - Game/App/Web development
   - Data Analytics
   - Digital marketing
@@ -36,7 +36,7 @@ email: ""
 superuser: true
 highlight_name: false
 ---
-Luis Cano is an Engineering student in Computer Science at the Instituto Tecnológico de Estudios Superiores de Monterrey (ITESM). His research interests include AI, game/app development, web development, data analytics, digital marketing and programming languages.
+Luis Cano is an Engineering student in Computer Science at the Instituto Tecnológico de Estudios Superiores de Monterrey (ITESM). His research interests include AI, Machine Learning, game/app development, web development, data analytics, digital marketing and programming languages.
 
 He is currently a Digital Analyst, Web Developer, and SEO Analyst working at [Forte Industria](https://forteindustria.com/) —an online retailer of industrial machinery— and at [Cocina del Chef](https://cocinadelchef.mx/) —an online retailer of kitchen-related products. Also has previous experience working at [Pixelwork](https://pixelwork.mx/) —making and designing multiple sites for other companies, as well as working with Search Engine Optimization, Google Ads, and maintenance for multiple domains. Likewise, he has worked on multiple university projects, such as the creation and development of a website for the Student Participation Committee.
 
