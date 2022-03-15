@@ -40,7 +40,7 @@ Luis Cano is an Engineering student in Computer Science at the Instituto Tecnol�
 
 He is currently a Digital Analyst, Web Developer, and SEO Analyst working at [Forte Industria](https://forteindustria.com/) —an online retailer of industrial machinery— and at [Cocina del Chef](https://cocinadelchef.mx/) —an online retailer of kitchen-related products. Also has previous experience working at [Pixelwork](https://pixelwork.mx/) —making and designing multiple sites for other companies, as well as working with Search Engine Optimization, Google Ads, and maintenance for multiple domains. Likewise, he has worked on multiple university projects, such as the creation and development of a website for the Student Participation Committee.
 
-Moreover, he has worked in app development –working with Unity to develop UI/UX layouts as well as game features and mechanics.
+Moreover, he has worked in app development –working with Unity to develop UI/UX layouts as well as game features and mechanics, with react.js for creating web apps, and with AndroidStudio for developing apps for android devices.
 Furthermore, he is experienced as well in teaching –having taught programming courses (of *Swift*) for younger students in two occasions.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}résumé{{< /staticref >}}
