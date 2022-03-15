@@ -5,6 +5,7 @@ bio: Mis intereses incluyen Inteligencia Artificial, desarrollo de juegos/aplica
   marketing digital, y lenguajes de programación.
 interests:
   - Inteligencia Artificial
+  - Machine Learning
   - Desarrollo de juegos/aplicaciones
   - Desarrollo web
   - Marketing digital
@@ -37,7 +38,7 @@ email: ""
 superuser: true
 highlight_name: false
 ---
-Luis Cano es un estudiante de Ingeniería en Tecnologías Computacionales en el Instituto Tecnológico de Estudios Superiores de Monterrey (ITESM). Sus intereses de investigación incluyen la Inteligencia Artificial, el desarrollo de juegos/aplicaciones, desarrollo web, marketing digital y lenguajes de programación.
+Luis Cano es un estudiante de Ingeniería en Tecnologías Computacionales en el Instituto Tecnológico de Estudios Superiores de Monterrey (ITESM). Sus intereses de investigación incluyen la Inteligencia Artificial, Machine Learning, el desarrollo de juegos/aplicaciones, desarrollo web, marketing digital y lenguajes de programación.
 
 Actualmente es Analísta Digital, Desarrollador Web y Analista de SEO trabajando en [Forte Industria](https://forteindustria.com/) —una tienda en línea de maquinaria industrial— y en [Cocina del Chef](https://cocinadelchef.mx/) —una tienda en línea de artículos relacionados con cocina. Adicionalmente cuenta con experiencia previa habiendo trabajado en [Pixelwork](https://pixelwork.mx/) —realizando y diseñando múltiples sitios para otras empresas, además de trabajar con Search Engine Optimization, Google Ads y mantenimiento para múltiples dominios. De igual manera, ha trabajado en multiples proyectos universitarios, como la creación y desarrollo de un sitio web para el Comité de Participación Estudiantil.
 
