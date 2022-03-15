@@ -49,12 +49,12 @@ We created a game using Unity / C#. The game is a combination of an Endless Runn
 With this game we ultimately looked for a balance between player skill and Trivia knowledge, keeping the game fun and relevant to the objective Ternium is trying to achieve.
 
 # Web App - React
-We created a web app using React.js. We also used bootsrap for some of the web components. 
+We created a web app using React.js. We also used Bootstrap for some of the web components. 
 ![Web App Admin Dashboard](img2.png "Admin Dashboard")
 ### Functions and Characteristics
 + This web app works with different user roles (admin, master admin, employee), and has different layouts and functions correspondingly (website changes depending on who logs in).
 + Every user has a dashboard, with graphs and data that corresponds to them or to their role.
-+ An admin can create an user group of employees to manage them and receive data of their performance with the training game app.
++ An admin can create a user group of employees to manage them and receive data of their performance with the training game app.
 + An admin can create a new trivia topic for the game, and create a list of questions for it. At any moment an admin can delete or add new ones.
 + There is a leaderboard where users can see the top scorers of the TerniumRUN game.
 
