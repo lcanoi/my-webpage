@@ -1,8 +1,8 @@
 ---
-title: TerniumRUN - Training Plataform for Ternium
+title: TerniumRUN - Training Platform for Ternium
 subtitle: ""
 date: 2021-09-01T03:57:45.024Z
-summary: Created a react.js / unity / MySQL solution connected with APIs for a project working with TERNIUM, behind the idea of creating an interactive Training Plataform for new employees.
+summary: Created a react.js / unity / MySQL solution connected with APIs for a project working with TERNIUM, behind the idea of creating an interactive Training Platform for new employees.
 draft: false
 featured: false
 tags:
@@ -23,7 +23,7 @@ image:
 ---
 
 ## Overview
-I was tasked to create a digital platform that allows Ternium employees to train in various areas of the industry through gamification (thus developing a video game being essential). Moreover, this plataform had to be connected to a website where users could access the game to learn a specific topic, and where admins could administrate the users and the games and get usefull information from data created by the game.
+I was tasked to create a digital platform that allows Ternium employees to train in various areas of the industry through gamification (thus developing a video game being essential). Moreover, this platform had to be connected to a website where users could access the game to learn a specific topic, and where admins could administrate the users and the games and get useful information from data created by the game.
 
 For this project I worked in a team of 5 Computer Science students.
 
