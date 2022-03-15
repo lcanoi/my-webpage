@@ -7,6 +7,7 @@ draft: false
 featured: false
 tags:
   - 2
+  - 3
   - 4
   - 5
   - 7
