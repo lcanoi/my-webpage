@@ -22,47 +22,46 @@ image:
   preview_only: false
 ---
 
-## Overview
-I was tasked to create a digital platform that allows Ternium employees to train in various areas of the industry through gamification (thus developing a video game being essential). Moreover, this platform had to be connected to a website where users could access the game to learn a specific topic, and where admins could administrate the users and the games and get useful information from data created by the game.
+## Resumen
+Me encargaron la creación de una plataforma digital que permita a los empleados de Ternium capacitarse en diversas áreas de la industria a través de la gamificación (siendo fundamental desarrollar un videojuego). Además, esta plataforma tenía que estar conectada a un sitio web donde los usuarios pudieran acceder al juego para aprender un tema específico, y donde los administradores pudieran administrar a los usuarios y los juegos y obtener información útil de los datos creados por el juego.
 
-For this project I worked in a team of 5 Computer Science students.
+Para este proyecto trabajé en un equipo de 5 estudiantes de Computer Science.
 
-## Tools
-For the creation of this project, the tools that were mainly used were:
-+ Unity: for the development of the Ternium game where employees can train and learn about the company
-+ React.js: for the development of the web app
-+ MySQL: for the database containing data for the web app and for the unity game
-+ Python: for the API connecting the React web app to the SQL database
+## Herramientas
+Para la creación de este proyecto, las herramientas que se utilizaron principalmente fueron:
++ Unity: para el desarrollo del juego de Ternium donde los empleados puedan capacitarse y conocer la empresa
++ React.js: para el desarrollo de la app web
++ MySQL: para la base de datos que contiene datos para la aplicación web y para el juego de unity
++ Python: para la API que conecta la aplicación web de React a la base de datos SQL
 
-## Final Product:
-Here you can see a video made by the team with the final simulation of the created web and game solutions, working together with the database and API. This video is in Spanish. Everything is explained further ahead in the post.
-[![Simulation Example](https://img.youtube.com/vi/ZcBAOGCeF5Y/0.jpg)](https://www.youtube.com/watch?v=ZcBAOGCeF5Y)
+## Producto final:
+Aquí puedes ver un video realizado por el equipo con la simulación final de las soluciones web y de juegos creadas, trabajando en conjunto con la base de datos y la API. De igual manera, todo se explica más adelante en el post.
+[![Ejemplo de simulación](https://img.youtube.com/vi/ZcBAOGCeF5Y/0.jpg)](https://www.youtube.com/watch?v=ZcBAOGCeF5Y)
 
-# Game - Unity
-We created a game using Unity / C#. The game is a combination of an Endless Runner and a Trivia, where the objective is to achieve the highest score possible, and there would be a leaderboard on the Web App to keep track of the best ones in each of the Trivia topics. 
-![Game Main Screen](img1.png "Main Screen")
-### Gameplay
-+ The player is found in an endless runner with 3 hearts and enemies you need to dodge: If you hit an enemy you lose a heart and at 0 hearts it is Game Over.
-+ The educational part of the game is that every X amount of seconds you would get a random trivia question. The game pulls these questions from the database, using a game_id to select one related to the topic you are currently learning as a new employee at Ternium. If you get the correct answer you can recover one heart, but if you get it wrong you lose one.
-+ The runner keeps getting faster and the enemies harder to dodge, and if you cannot keep up with the enemies and trivia questions you eventually come to a Game Over and if you did great a New High Score. 
+# Juego - Unity
+Creamos un juego usando Unity / C#. El juego es una combinación de Endless Runner y Trivia, donde el objetivo es lograr la mayor puntuación posible, y habría una tabla de clasificación en la aplicación web para llevar un registro de los mejores en cada uno de los temas de Trivia.
+![Pantalla Inicio del Juego](img1.png "Pantalla Inicio")
+### Cómo se juega
++ El jugador se encuentra en un Endless Runner con 3 corazones y enemigos que debe esquivar: si golpeas a un enemigo pierdes un corazón y con 0 corazones se acaba el juego.
++ La parte educativa del juego es que cada X cantidad de segundos obtendrás una pregunta de trivia al azar. El juego extrae estas preguntas de la base de datos, utilizando un game_id para seleccionar una relacionada con el tema que uno está aprendiendo actualmente como nuevo empleado en Ternium. Si obtienes la respuesta correcta, puedes recuperar un corazón, pero si te equivocas, pierdes uno.
++ El corredor se vuelve cada vez más rápido y los enemigos son más difíciles de esquivar, y si no puedes seguir el ritmo de los enemigos y las preguntas de trivia, eventualmente llegas al Game Over, y si jugaste bien, podrás conseguir una nueva Puntuación Máxima.
 
-With this game we ultimately looked for a balance between player skill and Trivia knowledge, keeping the game fun and relevant to the objective Ternium is trying to achieve.
+Con este juego buscamos un equilibrio entre la habilidad del jugador y el conocimiento de Trivia, manteniendo el juego divertido y relevante para el objetivo que Ternium estaba tratando de lograr.
 
-# Web App - React
-We created a web app using React.js. We also used Bootstrap for some of the web components. 
-![Web App Admin Dashboard](img2.png "Admin Dashboard")
-### Functions and Characteristics
-+ This web app works with different user roles (admin, master admin, employee), and has different layouts and functions correspondingly (website changes depending on who logs in).
-+ Every user has a dashboard, with graphs and data that corresponds to them or to their role.
-+ An admin can create a user group of employees to manage them and receive data of their performance with the training game app.
-+ An admin can create a new trivia topic for the game, and create a list of questions for it. At any moment an admin can delete or add new ones.
-+ There is a leaderboard where users can see the top scorers of the TerniumRUN game.
+# App Web - React.js
+Creamos una aplicación web usando React.js. También usamos Bootstrap para algunos de los componentes web.
+![Dasbhoard del Admin Web](img2.png "Admin Dashboard")
+### Funciones y Características
++ Esta aplicación web funciona con diferentes roles de usuario (administrador, administrador master, empleado) y tiene diferentes diseños y funciones de manera correspondiente (el sitio web cambia según quién inicie sesión).
++ Cada usuario tiene un tablero o dashboard, con gráficos y datos que le corresponden a él o a su rol.
++ Un administrador puede crear un grupo de usuarios de empleados para administrarlos y recibir datos de su desempeño con la aplicación del juego de entrenamiento.
++ Un administrador puede crear un nuevo tema de trivia para el juego y crear una lista de preguntas para él. En cualquier momento, un administrador puede eliminar o agregar nuevos.
++ Hay una tabla de clasificación donde los usuarios pueden ver los jugadores con máximos puntajes del juego TerniumRUN.
 
-# Database & API - MySQL & Python
-We created a database which contained information about the users and the games. To have the react.js web app connected to everything else we used Redux, which worked with the Python API to connect to the database, doing actions such as storing data in the database and retriving data from it to update the dashboards and other modules in the web app.
-![Database Structure](img3.png "Database Structure")
-### Uses of the Database and API
-+ User creation and authentication. In the web app, a master admin could create a new admin user or employee user with email and password. This information is then saved in the database with an encrypted password, and an authentication token is created there. Then the new user can log in with his new credentials and access his own account in the web app. The user could later change his password which would call a function telling the database to make the change.
-+ Game creation. In the web app, an admin could create a game with a set list of questions. This game is then saved in the database with a set game_id, and all of its questions are also saved in their own table keeping that id as a secondary key.
-+ Playing a game with specific set of random trivia questions. When selecting a game from the web app, the user would be redirected to the TerniumRUN game with a set game_id. Then the unity game can pull random questions from the database with said game_id (also keeping track of the question_id to not get repeated ones).
-
+# Base de Datos & API - MySQL & Python
+Creamos una base de datos conteniendo información sobre los usuarios y los juegos. Para tener la aplicación web react.js conectada a todo lo demás, usamos Redux, que funcionó junto a la API de Python para conectarse a la base de datos, realizando acciones como almacenar datos en la base de datos y recuperar datos de ella para actualizar los paneles y otros módulos en la aplicación web
+![Estructura de Base de Datos](img3.png "Estructura de Base de Datos")
+### Usos de la Base de Datos y la API
++ Creación y autenticación de usuarios. En la aplicación web, un administrador maestro podría crear un nuevo usuario administrador o un usuario empleado con correo electrónico y contraseña. Luego, esta información se guarda en la base de datos con una contraseña encriptada y allí se crea un token de autenticación. Luego, el nuevo usuario puede iniciar sesión con sus nuevas credenciales y acceder a su propia cuenta en la aplicación web. Posteriormente, el usuario podría cambiar su contraseña, lo que llamaría a una función que le indicaría a la base de datos que realice el cambio.
++ Creación de juegos. En la aplicación web, un administrador podría crear un juego con una lista establecida de preguntas. Luego, este juego se guarda en la base de datos con un game_id establecido, y todas sus preguntas también se guardan en su propia tabla, manteniendo ese id como llave secundaria.
++ Jugar un juego con un conjunto específico de preguntas de trivia aleatorias. Al seleccionar un juego desde la aplicación web, el usuario sería redirigido al juego TerniumRUN con un game_id establecido. Entonces para la trivia, el juego de unity puede extraer preguntas aleatorias de la base de datos con dicho game_id (también haciendo un seguimiento del question_id para no repetir).
