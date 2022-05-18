@@ -48,7 +48,10 @@ The whole list of input tokens and outputs obtained from the .csv file are then 
 
 # Neural Network - Machine Learning
 For the Neural Network I used tensorflow.python.keras to create a Multilayer Perceptron model with regression.
-![Game Main Screen](img1.png "Main Screen")
+| ![Multilayer Perceptron Model](img4.png "Multilayer Perceptron") |
+|:--:|
+| <b>Input layer has 50 neurons, other leyers have up to 60 neurons each, this is only a simple representation of the model</b>|
+
 ### The Model
 + The model has one initial Masking layer with a mask value of 0 so that it can ignore any 0s that could have been generated in the pad_sequences function at the tokenizer. This initial layer takes an input shape of (50,).
 + The following N layers of the model are multiple Dense layers with relu activation (rectified linear unit). The amount of these layers and neurons in each is modified along the training of different saved models.
@@ -61,26 +64,21 @@ For the Neural Network I used tensorflow.python.keras to create a Multilayer Per
 + Then we evaluate the model and we get the MSE, the Root MSE and the Mean Absolute Error (MSA), this with the train data and then with the test data to see the accuracy of the trained model and determine if we would work with it or not.
 These steps are ran multiple times by a main python training function, saving only the models with the lowest errors in a serialized manner. On completition, the saved models are stored and the variables of the Neural Network are modified, such as number of layers, number of neurons, amount of epochs, train-test data split %, and amount of inputs (in the tokenizer and MLP model). Then the main python training function is ran again with this new configuration.
 
+If you have any additional questions of how the model works or want to see the actual model, feel free to contact me!
 
-
-With this game we ultimately looked for a balance between player skill and Trivia knowledge, keeping the game fun and relevant to the objective Ternium is trying to achieve.
-
-# Web App - React
-We created a web app using React.js. We also used Bootstrap for some of the web components. 
-![Web App Admin Dashboard](img2.png "Admin Dashboard")
+# Web App - React.js
+The web app was created using React.js 
 ### Functions and Characteristics
-+ This web app works with different user roles (admin, master admin, employee), and has different layouts and functions correspondingly (website changes depending on who logs in).
-+ Every user has a dashboard, with graphs and data that corresponds to them or to their role.
-+ An admin can create a user group of employees to manage them and receive data of their performance with the training game app.
-+ An admin can create a new trivia topic for the game, and create a list of questions for it. At any moment an admin can delete or add new ones.
-+ There is a leaderboard where users can see the top scorers of the TerniumRUN game.
++ This web app has two tabs with the following functions:
+++ Upload Single Stories / Tasks to get a prediction.
+![Web App Single Story](img1.png "Single Story")
+![Web App Single Story Example](img2.png "Single Story Example")
+++ Upload a Batch of Stories / Tasks in .csv format to get a prediction for each of them.
+![Web App Batch Stories](img3.png "Batch of Stories")
++ After the stories are submitted and the estimation is requested, the app displays a table with the results of each story and its prediction
++ The website additionaly displays on a sidebar historic data of the 5 last predictions made.
 
-# Database & API - MySQL & Python
-We created a database which contained information about the users and the games. To have the react.js web app connected to everything else we used Redux, which worked with the Python API to connect to the database, doing actions such as storing data in the database and retriving data from it to update the dashboards and other modules in the web app.
-![Database Structure](img3.png "Database Structure")
-### Uses of the Database and API
-+ User creation and authentication. In the web app, a master admin could create a new admin user or employee user with email and password. This information is then saved in the database with an encrypted password, and an authentication token is created there. Then the new user can log in with his new credentials and access his own account in the web app. The user could later change his password which would call a function telling the database to make the change.
-+ Game creation. In the web app, an admin could create a game with a set list of questions. This game is then saved in the database with a set game_id, and all of its questions are also saved in their own table keeping that id as a secondary key.
-+ Playing a game with specific set of random trivia questions. When selecting a game from the web app, the user would be redirected to the TerniumRUN game with a set game_id. Then the unity game can pull random questions from the database with said game_id (also keeping track of the question_id to not get repeated ones).
+# Database, API & Server - Microsoft SQL Server, Nest.js, Django
+writting...
 
 
