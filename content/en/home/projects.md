@@ -23,7 +23,7 @@ content:
       tag: 5
     - name: Python
       tag: 6
-    - name: APIs
+    - name: APIs / Web Services
       tag: 7
     - name: Other
       tag: 8
