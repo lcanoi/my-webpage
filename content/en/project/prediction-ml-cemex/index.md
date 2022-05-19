@@ -84,9 +84,11 @@ This web app has two tabs with the following functions:
 ![Web App Single Story Example](img2.png "Single Story Example")
 + Upload a Batch of Stories / Tasks in .csv format to get a prediction for each of them.
 ![Web App Batch Stories](img3.png "Batch of Stories")
+
 After the stories are submitted and the estimation is requested, the app displays a table with the results of each story and its prediction
 
 The website additionaly displays on a sidebar historic data of the 5 last predictions made.
+
 
 # Database, API & Server - Microsoft SQL Server, Nest.js, Django
 writting...
