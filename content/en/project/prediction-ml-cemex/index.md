@@ -37,6 +37,7 @@ For the creation of this project, the tools that were mainly used were:
 
 ## Final Product:
 The Final Product is a React.js website with an interface to upload single task or a bulk of tasks (.csv file). When a task is uploaded, the website makes a request with a Nest.js API for our trained Neural Network models hosted in a Django Server. The Keras Neural Network is a Multilayer Perceptron (MLP) which does Natural Language Processing (NLP) tokenizing the input text, and then runs the values through the model, predicting an output. This output is then returned by the API request and the user gets on his screen the resulting prediction of effort for every inputted task. 
+  
 
 # Natural Language Processing - Tokenizer
 For NLP I had to tokenize the text from every input. For this I used Pandas for reading .csv files, Tensorflow Keras for the Tokenizer() function, and nltk for a list of stopwords.
@@ -50,7 +51,7 @@ Additionally, for the Summary and Description columns I apply a formula to remov
 Lastly, I join all the tokens and as I use a MLP which needs an input of an exact shape (size), I run the Keras pad_sequences function with post padding and post truncating of 0s to set every array of input tokens to the same size (=50).
 
 The whole list of input tokens and outputs obtained from the .csv file are then returned to the Neural Network.
-
+  
 
 # Neural Network - Machine Learning
 For the Neural Network I used tensorflow.python.keras to create a MLP model with regression.
@@ -70,10 +71,10 @@ For the Neural Network I used tensorflow.python.keras to create a MLP model with
 + Then we evaluate the model and we get the MSE, the Root MSE and the Mean Absolute Error (MSA), this with the train data and then with the test data to see the accuracy of the trained model and determine if we would work with it or not.
 
 These steps are ran multiple times by a main python training function, saving only the models with the lowest errors in a serialized manner. On completition, the saved models are stored and the variables of the Neural Network are modified, such as number of layers, number of neurons, amount of epochs, train-test data split %, and amount of inputs (in the tokenizer and MLP model). Then the main python training function is then ran again with this new configuration.
-
+  
 
 If you have any additional questions of how the model works or want to see the actual model, feel free to [contact me!](https://lcanoi.netlify.app/#contact)
-
+  
 
 # Web App - React.js
 The web app was created using React.js 
@@ -88,7 +89,7 @@ This web app has two tabs with the following functions:
 After the stories are submitted and the estimation is requested, the app displays a table with the results of each story and its prediction
 
 The website additionaly displays on a sidebar historic data of the 5 last predictions made.
-
+  
 
 # Database, API & Server - Microsoft SQL Server, Nest.js, Django
 writting...
