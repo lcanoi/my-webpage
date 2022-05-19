@@ -28,12 +28,12 @@ Based in JIRA stories and tasks used for CEMEX Go, I was tasked to develop a Neu
 
 ## Tools
 For the creation of this project, the tools that were mainly used were:
-+ Python: tensorflow.python.keras for the development of the Multilayer Perceptron Neural Network
++ Python: tensorflow.python.keras for the development of the Multilayer Perceptron (MLP) Neural Network
 + React.js: for the development of the web app
 + Microsoft SQL Server: for the database
 + Nest: for the API
 + Redux: for state managment
-+ Django: Server
++ Django: Server for the Neural Network estimations/predictions
 
 ## Final Product:
 The Final Product is a React.js website with an interface to upload single task or a bulk of tasks (.csv file). When a task is uploaded, the website makes a request with a Nest.js API for our trained Neural Network models hosted in a Django Server. The Keras Neural Network is a Multilayer Perceptron which does Natural Language Processing (NLP) tokenizing the input text, and then runs the values through the model, predicting an output. This output is then returned by the API request and the user gets the resulting prediction of effort for every inputted task. 
