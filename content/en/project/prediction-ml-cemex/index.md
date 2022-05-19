@@ -71,7 +71,8 @@ For the Neural Network I used tensorflow.python.keras to create a MLP model with
 
 These steps are ran multiple times by a main python training function, saving only the models with the lowest errors in a serialized manner. On completition, the saved models are stored and the variables of the Neural Network are modified, such as number of layers, number of neurons, amount of epochs, train-test data split %, and amount of inputs (in the tokenizer and MLP model). Then the main python training function is then ran again with this new configuration.
 
-If you have any additional questions of how the model works or want to see the actual model, feel free to contact me!
+
+If you have any additional questions of how the model works or want to see the actual model, feel free to [contact me!](https://lcanoi.netlify.app/#contact)
 
 
 # Web App - React.js
