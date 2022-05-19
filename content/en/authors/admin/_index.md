@@ -3,7 +3,7 @@ title: Luis Cano
 role: Engineering student in Computer Science
 bio: My interests include AI, Machine Learning, game/app development, web development, data analytics, digital marketing, programming languages.
 interests:
-  - AI
+  - Artificial Intelligence
   - Machine Learning
   - Game/App/Web development
   - Data Analytics
