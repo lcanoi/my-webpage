@@ -1,7 +1,7 @@
 ---
 title: NLP Prediction Neural Network (MLP) - Machine Learning model for Cemex
 subtitle: ""
-date: 2021-09-01T03:57:45.024Z
+date: 2022-05-15T08:00:00.024Z
 summary: Created a Tensorflow - Python - Keras Neural Network (Multilayer Perceptron) for Cemex, used for predicting an arbitrary value based on Natural Language Processing. 
 draft: false
 featured: false
@@ -40,11 +40,16 @@ The Final Product is a React.js website with an interface to upload single task 
 
 # Natural Language Processing - Tokenizer
 For NLP I had to tokenize the text from every input. For this I used Pandas for reading .csv files, Tensorflow Keras for the Tokenizer() function, and nltk for a list of stopwords.
+
 With pandas I read specific columns from the .csv files, being the Priority, Severity, Summary and Description of each JIRA task. All of these columns are strings.
 With the Keras Tokenizer I transform each of the text into a sequence of integers, using fit_on_texts() and texts_to_sequences() functions.
+
 Additionally, for the Summary and Description columns I apply a formula to remove every stopword from the text, increasing the quality of the Machine Learning training.
+
 Lastly, I join all the tokens and as I use a Multilayer Perceptron which needs an input of an exact shape (size), I run the Keras pad_sequences function with post padding and post truncating of 0s to set every array of input tokens to the same size (=50).
+
 The whole list of input tokens and outputs obtained from the .csv file are then returned to the Neural Network.
+
 
 # Neural Network - Machine Learning
 For the Neural Network I used tensorflow.python.keras to create a Multilayer Perceptron model with regression.
@@ -66,17 +71,19 @@ These steps are ran multiple times by a main python training function, saving on
 
 If you have any additional questions of how the model works or want to see the actual model, feel free to contact me!
 
+
 # Web App - React.js
 The web app was created using React.js 
 ### Functions and Characteristics
-+ This web app has two tabs with the following functions:
-++ Upload Single Stories / Tasks to get a prediction.
+This web app has two tabs with the following functions:
++ Upload Single Stories / Tasks to get a prediction.
 ![Web App Single Story](img1.png "Single Story")
 ![Web App Single Story Example](img2.png "Single Story Example")
-++ Upload a Batch of Stories / Tasks in .csv format to get a prediction for each of them.
++ Upload a Batch of Stories / Tasks in .csv format to get a prediction for each of them.
 ![Web App Batch Stories](img3.png "Batch of Stories")
-+ After the stories are submitted and the estimation is requested, the app displays a table with the results of each story and its prediction
-+ The website additionaly displays on a sidebar historic data of the 5 last predictions made.
+After the stories are submitted and the estimation is requested, the app displays a table with the results of each story and its prediction
+
+The website additionaly displays on a sidebar historic data of the 5 last predictions made.
 
 # Database, API & Server - Microsoft SQL Server, Nest.js, Django
 writting...
