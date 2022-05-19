@@ -24,7 +24,7 @@ image:
 ---
 
 ## Overview
-Based in JIRA stories and tasks used for CEMEX Go, I was tasked to develop a Neural Network model to predict the effort for a given story or task (predict how much time would it take CEMEX employees to solve said task)
+Based in JIRA stories and tasks used for CEMEX Go, I was tasked to develop a Neural Network model to predict the effort for a given story or task (predict how much time would it take CEMEX employees to solve said task). For this I had to do Natural Language Processing and Machine Learning.
 
 ## Tools
 For the creation of this project, the tools that were mainly used were:
