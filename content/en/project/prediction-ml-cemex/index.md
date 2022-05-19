@@ -42,7 +42,8 @@ The Final Product is a React.js website with an interface to upload single task 
 For NLP I had to tokenize the text from every input. For this I used Pandas for reading .csv files, Tensorflow Keras for the Tokenizer() function, and nltk for a list of stopwords.
 
 With pandas I read specific columns from the .csv files, being the Priority, Severity, Summary and Description of each JIRA task. All of these columns are strings.
-With the Keras Tokenizer I transform each of the text into a sequence of integers, using fit_on_texts() and texts_to_sequences() functions.
+
+With the Keras Tokenizer I transform each of the texts into a sequence of integers, using fit_on_texts() and texts_to_sequences() functions.
 
 Additionally, for the Summary and Description columns I apply a formula to remove every stopword from the text, increasing the quality of the Machine Learning training.
 
