@@ -28,7 +28,7 @@ Based in JIRA stories and tasks used for CEMEX Go, I was tasked to develop a Neu
 
 ## Tools
 For the creation of this project, the tools that were mainly used were:
-+ Python: tensorflow.python.keras for the development of the Multilayer Perceptron (MLP) Neural Network
++ Python: tensorflow.python.keras for the development of the Multilayer Perceptron Neural Network
 + React.js: for the development of the web app
 + Microsoft SQL Server: for the database
 + Nest: for the API
@@ -36,7 +36,7 @@ For the creation of this project, the tools that were mainly used were:
 + Django: Server for the Neural Network estimations/predictions
 
 ## Final Product:
-The Final Product is a React.js website with an interface to upload single task or a bulk of tasks (.csv file). When a task is uploaded, the website makes a request with a Nest.js API for our trained Neural Network models hosted in a Django Server. The Keras Neural Network is a Multilayer Perceptron which does Natural Language Processing (NLP) tokenizing the input text, and then runs the values through the model, predicting an output. This output is then returned by the API request and the user gets the resulting prediction of effort for every inputted task. 
+The Final Product is a React.js website with an interface to upload single task or a bulk of tasks (.csv file). When a task is uploaded, the website makes a request with a Nest.js API for our trained Neural Network models hosted in a Django Server. The Keras Neural Network is a Multilayer Perceptron (MLP) which does Natural Language Processing (NLP) tokenizing the input text, and then runs the values through the model, predicting an output. This output is then returned by the API request and the user gets the resulting prediction of effort for every inputted task. 
 
 # Natural Language Processing - Tokenizer
 For NLP I had to tokenize the text from every input. For this I used Pandas for reading .csv files, Tensorflow Keras for the Tokenizer() function, and nltk for a list of stopwords.
@@ -46,13 +46,13 @@ With the Keras Tokenizer I transform each of the text into a sequence of integer
 
 Additionally, for the Summary and Description columns I apply a formula to remove every stopword from the text, increasing the quality of the Machine Learning training.
 
-Lastly, I join all the tokens and as I use a Multilayer Perceptron which needs an input of an exact shape (size), I run the Keras pad_sequences function with post padding and post truncating of 0s to set every array of input tokens to the same size (=50).
+Lastly, I join all the tokens and as I use a MLP which needs an input of an exact shape (size), I run the Keras pad_sequences function with post padding and post truncating of 0s to set every array of input tokens to the same size (=50).
 
 The whole list of input tokens and outputs obtained from the .csv file are then returned to the Neural Network.
 
 
 # Neural Network - Machine Learning
-For the Neural Network I used tensorflow.python.keras to create a Multilayer Perceptron model with regression.
+For the Neural Network I used tensorflow.python.keras to create a MLP model with regression.
 | ![Multilayer Perceptron Model](img4.png "Multilayer Perceptron") |
 |:--:|
 | <b>Input layer has 50 neurons, other leyers have up to 60 neurons each, this is only a simple representation of the model</b>|
