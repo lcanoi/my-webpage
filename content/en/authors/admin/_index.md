@@ -27,9 +27,9 @@ organizations:
     name: Tecnológico de Monterrey
 education:
   courses:
-    - course: BSc in Computer Science, currently enrolled
+    - course: BSc in Computer Science
       institution: Tecnológico de Monterrey
-      year: ""
+      year: currently enrolled - Jun 2023
     - course: International Baccalaureate Diploma Programme
       institution: Liceo de Monterrey, Centro Educativo
       year: 2019
