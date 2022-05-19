@@ -36,7 +36,7 @@ For the creation of this project, the tools that were mainly used were:
 + Django: Server for the Neural Network estimations/predictions
 
 ## Final Product:
-The Final Product is a React.js website with an interface to upload single task or a bulk of tasks (.csv file). When a task is uploaded, the website makes a request with a Nest.js API for our trained Neural Network models hosted in a Django Server. The Keras Neural Network is a Multilayer Perceptron (MLP) which does Natural Language Processing (NLP) tokenizing the input text, and then runs the values through the model, predicting an output. This output is then returned by the API request and the user gets the resulting prediction of effort for every inputted task. 
+The Final Product is a React.js website with an interface to upload single task or a bulk of tasks (.csv file). When a task is uploaded, the website makes a request with a Nest.js API for our trained Neural Network models hosted in a Django Server. The Keras Neural Network is a Multilayer Perceptron (MLP) which does Natural Language Processing (NLP) tokenizing the input text, and then runs the values through the model, predicting an output. This output is then returned by the API request and the user gets on his screen the resulting prediction of effort for every inputted task. 
 
 # Natural Language Processing - Tokenizer
 For NLP I had to tokenize the text from every input. For this I used Pandas for reading .csv files, Tensorflow Keras for the Tokenizer() function, and nltk for a list of stopwords.
