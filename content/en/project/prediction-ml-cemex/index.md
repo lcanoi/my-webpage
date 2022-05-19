@@ -60,7 +60,7 @@ For the Neural Network I used tensorflow.python.keras to create a MLP model with
 
 ### The Model
 + The model has one initial Masking layer with a mask value of 0 so that it can ignore any 0s that could have been generated in the pad_sequences function at the tokenizer. This initial layer takes an input shape of (50,).
-+ The following N layers of the model are multiple Dense layers with relu activation (rectified linear unit). The amount of these layers and neurons in each is modified along the training of different saved models.
++ The following N layers of the model are multiple Dense layers with relu activation (rectified linear unit). The amount of these layers and neurons in each is modified throughout the training of different saved models.
 + The last one is Dense layer with a single neuron and linear activation, which is used for regression in the model.
 + I did not use Dropout layers as they are not needed for this solution.
 + The model uses the Adam optimizer from tensorflow keras, and uses the loss function of Mean Squared Error (MSE) as we seek to minimize the difference between our predictions and the actual results.
