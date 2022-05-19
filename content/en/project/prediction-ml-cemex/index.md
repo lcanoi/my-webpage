@@ -37,6 +37,7 @@ For the creation of this project, the tools that were mainly used were:
 
 ## Final Product:
 The Final Product is a React.js website with an interface to upload single task or a bulk of tasks (.csv file). When a task is uploaded, the website makes a request with a Nest.js API for our trained Neural Network models hosted in a Django Server. The Keras Neural Network is a Multilayer Perceptron (MLP) which does Natural Language Processing (NLP) tokenizing the input text, and then runs the values through the model, predicting an output. This output is then returned by the API request and the user gets on his screen the resulting prediction of effort for every inputted task. 
+
 <br/>
 
 # Natural Language Processing - Tokenizer
@@ -51,7 +52,8 @@ Additionally, for the Summary and Description columns I apply a formula to remov
 Lastly, I join all the tokens and as I use a MLP which needs an input of an exact shape (size), I run the Keras pad_sequences function with post padding and post truncating of 0s to set every array of input tokens to the same size (=50).
 
 The whole list of input tokens and outputs obtained from the .csv file are then returned to the Neural Network.
-  
+
+<br/>
 
 # Neural Network - Machine Learning
 For the Neural Network I used tensorflow.python.keras to create a MLP model with regression.
@@ -74,6 +76,7 @@ These steps are ran multiple times by a main python training function, saving on
   
 
 If you have any additional questions of how the model works or want to see the actual model, feel free to [contact me!](https://lcanoi.netlify.app/#contact)
+
 <br/>
 
 # Web App - React.js
