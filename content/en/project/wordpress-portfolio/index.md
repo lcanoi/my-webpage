@@ -19,6 +19,7 @@ image:
 
 ## Overview
 Throughout my carreer as a web developer I have worked with Wordpress to build an improve multiple company websites. As well, I have worked with Ahrefs, Yoast SEO, Google Analytics and Google Search Console to increase with success the organic traffic value of multiple domains, as well as increasing their domain health score (fixing errors, removing issues, increasing website speed, optimizing for search engines).
+
 Aditional to my knowledge of Wordpress and its tools, I have also worked making HTML and CSS changes on these websites for further personalization as well as have worked with a great variety of WP Plugins.
 
 In this post I will list all the websites I have fully developed or taken part on their development.
@@ -69,6 +70,9 @@ In this post I will list all the websites I have fully developed or taken part o
 
 <br/>
 
+## Server managment
 For forteindustria, cocinadelchef, valorcomerical and avaluninmobiliaro, I have also worked managing these websites in a Bluehost Server, making server changes and optimizations for the websites, managing and uploading files via FTP, managing website emails, and being the main contact with Bluehost support for any unprecedented problem in the server side.
+
+<br/>
 
 If you have any additional questions of my work in any of these websites, feel free to [contact me!](https://lcanoi.netlify.app/#contact)
