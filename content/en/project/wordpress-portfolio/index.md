@@ -1,13 +1,13 @@
 ---
 title: Wordpress Portfolio
 subtitle: ""
-date: 2022-05-15T08:00:00.024Z
+date: 2022-05-23T23:00:00.024Z
 summary: Collection of Wordpress Websites I have created and built from scratch, or worked at uploading new content, fixing errors and issues, and optimizing for SEO and domain health scores.
 draft: false
 featured: false
 tags:
   - 3
-  - 9
+  - 8
   - Wordpress
 external_link: ""
 # 
