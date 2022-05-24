@@ -10,7 +10,7 @@ featured: false
 tags:
   - 4
   - 6
-  - 8
+  - 9
   - Other
 external_link: https://miscompetenciastec21.tec.mx/elumen/portfolio/K9krQbCe0nU2lbE
 image:
