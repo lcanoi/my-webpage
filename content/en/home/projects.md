@@ -25,8 +25,10 @@ content:
       tag: 6
     - name: APIs / Web Services
       tag: 7
-    - name: Other
+    - name: Wordpress
       tag: 8
+    - name: Other
+      tag: 9
 design:
   columns: "2"
   view: 2
