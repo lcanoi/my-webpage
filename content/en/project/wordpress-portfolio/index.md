@@ -60,6 +60,10 @@ In this post I will list all the websites I have fully developed or taken part o
 + Helped with blog writing and uploading
 + Made SEO improvements to multiple pages and blogs
 
+### Audi Center Monterrey
+[www.audicentermonterrey.com.mx](https://www.audicentermonterrey.com.mx/)
++ Worked with an Audi Center uploading content for the pages of their car models (by 2020)
+
 ### GHG Plumbing
 [ghg-plumbing.com](https://ghg-plumbing.com/)
 + Worked creating some pages and uploading content
