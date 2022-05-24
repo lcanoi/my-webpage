@@ -75,4 +75,9 @@ For forteindustria, cocinadelchef, valorcomerical and avaluninmobiliaro, I have 
 
 <br/>
 
+## Digital Marketing
+Aditional to the SEO for a greater organic presence, I have also worked in digital marketing for many of these sites (SEM), ranging from creating and sending newsletters to multiple lists of leads, creating and managing Google Ads campaigns, working with Facebook Ads, and providing insight for marketing strategies.
+
+<br/>
+
 If you have any additional questions of my work in any of these websites, feel free to [contact me!](https://lcanoi.netlify.app/#contact)
