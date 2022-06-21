@@ -37,12 +37,13 @@ email: ""
 superuser: true
 highlight_name: false
 ---
-Luis Cano is an Engineering student in Computer Science at the Instituto Tecnológico de Estudios Superiores de Monterrey (ITESM). His research interests include AI, Machine Learning, game/app development, web development, data analytics, digital marketing and programming languages.
+I am Luis Cano, an Engineering student in Computer Science at the Tecnológico de Monterrey (ITESM). My main research interests include AI, Machine Learning, and data analytics. However, I am also knowledgeable of game/app development, web development, digital marketing, and multiple programming languages. I seek self-learning of these fields and am driven by looking forward to making innovative products with positive impacts in the world.
 
-He is currently a Digital Analyst, Web Developer, and SEO Analyst working at [Forte Industria](https://forteindustria.com/) —an online retailer of industrial machinery— and at [Cocina del Chef](https://cocinadelchef.mx/) —an online retailer of kitchen-related products. Also has previous experience working at [Pixelwork](https://pixelwork.mx/) —making and designing multiple sites for other companies, as well as working with Search Engine Optimization, Google Ads, and maintenance for multiple domains. Likewise, he has worked on multiple university projects, such as the creation and development of a website for the Student Participation Committee.
+Currently as a Digital Analyst, Web Developer, and SEO Analyst working at [Forte Industria](https://forteindustria.com/) —an online retailer of industrial machinery— and at [Cocina del Chef](https://cocinadelchef.mx/) —an online retailer of kitchen-related products. Also have previous experience working at [Pixelwork](https://pixelwork.mx/) — designing and making multiple sites for other companies, working with SEO and mantaining multiple domains.
 
-Moreover, he has worked in app development –working with Unity to develop UI/UX layouts as well as game features and mechanics, with react.js for creating web apps, and with AndroidStudio for developing apps for android devices. As well, he has worked in multiple proyects with work ranging from developing apps, APIs, neural networks, web pages, databases, games, project planning (SRS) and software.
+Moreover, I have worked in app development –working with Unity to develop UI/UX layouts as well as game features and mechanics, with react.js for creating web apps, and with AndroidStudio for developing apps for android devices. As well, I have succesfully completed multiple projects with work ranging from developing apps, APIs, neural networks, AI, web pages, databases, games, software, and project planning and design.
+On these projects I have successfully worked in teams, communicating my ideas and leading the team where needed, while also valuing the different points of view of my teammates and learning from the insight of others.
 
-Furthermore, he is experienced as well in teaching –having taught programming courses (of *Swift*) for younger students in two occasions.
+Furthermore, I am experienced as well in teaching –having taught programming courses (of *Swift*) for younger students in two occasions.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}résumé{{< /staticref >}}
