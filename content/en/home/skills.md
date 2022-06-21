@@ -14,24 +14,24 @@ feature:
   - icon: csharp
     icon_pack: custom
     name: C#
-  - icon: node-js
+  - icon: tensorflow
     icon_pack: fab
-    name: Node.js
+    name: Tensorflow
   - icon: sql
     icon_pack: custom
     name: SQL
-  - icon: matlab
+  - icon: node-js
     icon_pack: custom
-    name: Matlab
-  - icon: unity
-    icon_pack: fab
-    name: Unity
-  - icon: wordpress
-    icon_pack: fab
-    name: Wordpress
+    name: Node.js
   - icon: r-project
     icon_pack: fab
     name: R
+  - icon: wordpress
+    icon_pack: fab
+    name: Wordpress
+  - icon: unity
+    icon_pack: fab
+    name: Unity
   - icon: html5
     icon_pack: fab
     name: HTML
