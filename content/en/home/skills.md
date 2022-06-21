@@ -15,13 +15,13 @@ feature:
     icon_pack: custom
     name: C#
   - icon: tensorflow
-    icon_pack: fab
+    icon_pack: custom
     name: Tensorflow
   - icon: sql
     icon_pack: custom
     name: SQL
   - icon: node-js
-    icon_pack: custom
+    icon_pack: fab
     name: Node.js
   - icon: r-project
     icon_pack: fab
