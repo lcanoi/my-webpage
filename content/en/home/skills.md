@@ -15,7 +15,7 @@ feature:
     icon_pack: custom
     name: C#
   - icon: tensorflow
-    icon_pack: custom
+    icon_pack: fab
     name: Tensorflow
   - icon: sql
     icon_pack: custom
