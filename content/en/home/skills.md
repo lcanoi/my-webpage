@@ -26,21 +26,21 @@ feature:
   - icon: r-project
     icon_pack: fab
     name: R
-  - icon: wordpress
-    icon_pack: fab
-    name: Wordpress
   - icon: unity
     icon_pack: fab
     name: Unity
+  - icon: figma
+    icon_pack: fab
+    name: Figma
+  - icon: wordpress
+    icon_pack: fab
+    name: Wordpress
   - icon: html5
     icon_pack: fab
     name: HTML
   - icon: css3-alt
     icon_pack: fab
     name: CSS
-  - icon: figma
-    icon_pack: fab
-    name: Figma
 widget_id: Skills
 active: true
 ---
