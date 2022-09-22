@@ -1,7 +1,7 @@
 ---
 title: NLP Prediction Neural Network (MLP) - Machine Learning model for Cemex
 subtitle: ""
-date: 2022-05-15T08:00:00.024Z
+date: 2022-05-16T08:00:00.024Z
 summary: Created a Tensorflow - Python - Keras Neural Network (Multilayer Perceptron) for Cemex, used for predicting an arbitrary value based on Natural Language Processing. 
 draft: false
 featured: false
