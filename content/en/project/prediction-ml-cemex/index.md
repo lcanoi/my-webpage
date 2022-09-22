@@ -33,7 +33,6 @@ For the creation of this project, the tools that were mainly used were:
 + Microsoft SQL Server: for the database
 + NestJS: server for main API
 + FastAPI: server for state managment
-+ Django: Server for the Neural Network estimations/predictions
 
 ## Final Product:
 The Final Product is a React.js client with an interface to upload single task or a bulk of tasks (.xslx file). When a task is uploaded, the client makes a request with a Nest.js API for our tokenizer and trained Neural Network models, managed by a FastAPI server, in order to get a time prediction. The Keras Neural Network is a Multilayer Perceptron (MLP) which first does Natural Language Processing (NLP) tokenizing the input text, and then runs the values through the model weights, predicting an output. This output is then returned by the API request and the user gets on his screen the resulting prediction of effort/time needed for every inputted task. 
@@ -57,7 +56,7 @@ The whole list of input tokens and outputs obtained from the .xslx file are then
 
 # Neural Network - Machine Learning
 For the Neural Network I used tensorflow.python.keras to create a MLP model with regression.
-| ![Multilayer Perceptron Model](img4.png "Multilayer Perceptron") |
+| ![Multilayer Perceptron Model](img0.png "Multilayer Perceptron") |
 |:--:|
 | <b>Input layer has 35 neurons, depending on model other layers have up to 45 neurons each, this is only a simple representation of the model</b>|
 
@@ -102,10 +101,12 @@ The website additionaly displays on a sidebar historic data of the 5 last predic
 
 # Database, API & Server - SQL, Nest.js, FastAPI
 ## Project Architecture - How everything works together
-![Architecture Diagram](img6.png "Architecture of the project")
+![Architecture Diagram](img7.png "Architecture of the project")
+Package Diagram
+![Package Diagram](img8.png "Packages")
 ### APIs
 We have the Nest server connected to the client and the FastAPI server connected to the Machine Learning services.
-Once we submit a story for prediction in the main client, the data is sent to the Nest server, which makes the request to the FastAPI to use its tokenizer and neural networks and return a time prediction. The Nest server receives this information, stores the data with predicted output in the SQL database, and returns everything to the client so it can be displayed. 
+Once we submit a story or batch for predictions in the main client, the data is sent to the Nest server, which makes the request to the FastAPI to use its tokenizer and neural networks and return a time prediction. The Nest server receives this information, stores the data with predicted output in the SQL database, and returns everything to the client so it can be displayed. 
 ### Use of the SQL Database
 As seen, in the client we have a sidebar displaying the recent stories with their time predictions. These and all previous estimations with data + predicted output are stored in the SQL database, and with the NestJS server we can access these components to display them on the client as historic data and to enable easy consoulting of recent work. 
 
