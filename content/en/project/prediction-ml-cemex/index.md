@@ -74,6 +74,10 @@ For the Neural Network I used tensorflow.python.keras to create a MLP model with
 
 These steps are ran multiple times by a main python training function, saving only the models with the lowest errors in a serialized manner. On completition, the saved models are stored, and the variables of the Neural Network are modified by the user such as number of layers, number of neurons, amount of epochs, train-test data split %, and amount of inputs (in the tokenizer and MLP model). Then the main python training function is ran again with the new configuration to seek diferent results.
 
+#### Results
+For the models, I managed to achieve an accuracy of predictions of 67.63% in test data. Given the state of the data we were given by CEMEX and the limited amount of it, only about 200 lines with rows with empty cells and dirty text, the company stated this to be a great accuracy for the model.
+
+
 If you have any additional questions of how the tokenizer or model works feel free to [contact me.](https://lcanoi.netlify.app/#contact)
 
 <br/>
@@ -100,7 +104,7 @@ The website additionaly displays on a sidebar historic data of the 5 last predic
 <br/>
 
 # Database, API & Server - SQL, Nest.js, FastAPI
-## Project Architecture - How everything works together
+## Project Backend
 ![Architecture Diagram](img7.png "Architecture of the project")
 Package Diagram
 ![Package Diagram](img8.png "Packages")
