@@ -43,6 +43,16 @@ This problem is solved with Logistic Regression and sigmoid activation function.
 
 Likewise, we use a variables * classes matrix for the weights and a 1 * classes array for the bias/error.
 
+```
+onehot = np.zeros((t_rows, classes))
+for i in range(t_rows):
+    onehot[i, y_train[i]] = 1
+
+weights = np.zeros((variables, classes))
+
+bias = np.zeros((1, classes))
+```
+
 <br/>
 
 #### Logistic Regression Model
@@ -65,6 +75,7 @@ for epoch in range(epochs):
         weights -= lr * d_grad_w
         bias -= lr * d_grad_b
 ```
+
 #### Predictions
 We can make predictions:
 ```
